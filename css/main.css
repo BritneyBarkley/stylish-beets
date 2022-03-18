@@ -48,3 +48,28 @@ figcaption {
   font-size: 1.125rem;
   font-weight: bold;
 }
+
+blockquote {
+  font-size: 1.5rem;
+  font-weight: italic;
+}
+
+#common-varieties > ol {
+  list-style-type: lower-alpha;
+}
+
+.size {
+  font-weight: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#tags > ul {
+  list-style-type: circle;
+}
+
+aside > footer > a:hover {
+  text-decoration: underline;
+}
