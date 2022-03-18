@@ -8,14 +8,16 @@ html {
 
 body {
   background-color: #c9b5ab;
-  font-family: font-family: 'PT Serif', serif;
-  font-size: 0.8rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
 }
 
 h1 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #222;
-  font-size: 1.125rem
+  font-size: 1.125rem;
 }
 
 h1 {
@@ -37,6 +39,7 @@ nav a:hover {
 }
 
 img {
+  width: auto;
   text-align: center;
 }
 
@@ -51,7 +54,7 @@ figcaption {
 
 blockquote {
   font-size: 1.5rem;
-  font-weight: italic;
+  font-style: italic;
 }
 
 #common-varieties > ol {
@@ -59,7 +62,7 @@ blockquote {
 }
 
 .size {
-  font-weight: italic;
+  font-style: italic;
 }
 
 dt {
@@ -70,6 +73,10 @@ dt {
   list-style-type: circle;
 }
 
-aside > footer > a:hover {
+a {
+  color: #8f2440;
+}
+
+a:hover {
   text-decoration: underline;
 }
