@@ -5,3 +5,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #c9b5ab;
+}
+
+h1 h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: #222;
+}
